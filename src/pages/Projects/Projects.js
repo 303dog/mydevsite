@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Pill } from '../Education/styles';
+import { SectionTitle, Pill } from '../../styles';
 import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
 
 const Projects = ({ user }) => {

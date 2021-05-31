@@ -46,4 +46,4 @@ const MobileNav = () => {
   )
 }
 
-export default MobileNav
+export default MobileNav;
