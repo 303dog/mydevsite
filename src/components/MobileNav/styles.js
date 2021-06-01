@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Button from 'carbon-components-react/lib/components/Button';
+import { red, gray } from '@carbon/colors';
+
+
+
 
 export const Container = styled.div`
   display: none;
@@ -10,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Spacer = styled.div`
-  height: 48px;
+  height: 55px;
 `;
 
 export const NavWrapper = styled.div`
@@ -25,9 +29,15 @@ export const NavWrapper = styled.div`
 
 export const NavLink = styled(Link)`
   width: 25%;
+ 
 `;
 
 export const NavButton = styled(Button)`
   width: 100%;
   justify-content: center;
+  border: 8px;
+  border-color: ${gray[50]} ;
+  border-style: groove;
+  background-color: ${red[60]};
+  color: ${red[10]};
 `;

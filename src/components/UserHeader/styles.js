@@ -32,9 +32,12 @@ export const ViewResumeLink = styled.a`
   border: 2px solid #2ecc40;
   background-color: rgba(46, 204, 64, 0.3);
   transition: background-color 250ms ease;
+
   &:hover {
     background-color: #2ecc40;
+    border-radius: 50%;
   }
+  
   svg {
     fill: white;
     margin-left: 8px;
