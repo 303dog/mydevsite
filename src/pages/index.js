@@ -4,6 +4,8 @@ import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
+import ContactMe from './ContactMe';
+import emailjs from "emailjs-com";
 
 const Pages = ({ user }) => {
   return (
@@ -20,6 +22,9 @@ const Pages = ({ user }) => {
         </Route>
         <Route path="/education">
           <Education user={user} />
+        </Route>
+        <Route path="/contact"> 
+        <ContactMe user={user} />
         </Route>
       </Switch>
     </Router>

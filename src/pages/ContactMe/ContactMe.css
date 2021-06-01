@@ -1,0 +1,76 @@
+
+
+.request__row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .request__container {
+    display: inline-block;
+    border-radius: 1px;
+    background-color: #1e2024;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+    border: 15px solid #d6d8e6;
+    border-style: groove;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+  
+  input.input__request[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input.request__input[type="text"],[type="email"], textarea {
+    padding: 5px 21px;
+    border-radius: 1px;
+    cursor: pointer;
+    float: justify;
+    resize: vertical;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .request__label {
+    padding: 0px 12px 10px 0;
+    display: inline-block;
+  }
+  
+  .request__input {
+    display: flex;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .request__container,
+    .request__input, textarea {
+      width: 100%;
+      margin: 0%;
+      
+    }
+  
+    .request__label {
+      text-align: center;
+      padding: 10px 1px 10px 5px;
+    }
+  
+    .request__row {
+      text-align: center;
+    }
+
+    .request__container {
+      margin-top: 10%;
+      margin-bottom:10%;
+    }
+
+  }
