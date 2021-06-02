@@ -16,6 +16,7 @@ const Me = ({ user }) => {
           {user.skills.map(skill => (
             <Pill key={skill.name}>{skill.name}</Pill>
           ))}
+         
         </div>
       </div>
       <div>
