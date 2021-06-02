@@ -5,7 +5,7 @@ import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
 import ContactMe from './ContactMe';
-import emailjs from "emailjs-com";
+
 
 const Pages = ({ user }) => {
   return (

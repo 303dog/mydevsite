@@ -27,7 +27,9 @@ export default function ContactMe({user}) {
           console.log(error.text);
         }
         );
+       
       }
+  
 
   return (
     <>
