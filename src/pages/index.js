@@ -4,7 +4,10 @@ import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
-import ContactMe from './ContactMe';
+import Contact from './Contact';
+
+
+
 
 
 const Pages = ({ user }) => {
@@ -24,7 +27,7 @@ const Pages = ({ user }) => {
           <Education user={user} />
         </Route>
         <Route path="/contact"> 
-        <ContactMe user={user} />
+        <Contact user={user} />
         </Route>
       </Switch>
     </Router>
