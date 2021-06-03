@@ -74,22 +74,19 @@ const Signup = () => {
                     First Name:
                     <input className='request__input' type='text' value={first} name="first" onChange={onChange} />
                 </label>
-            </div>
-            <div>
+           
                 <label HTMLfor='l_name' className='request__label'>
                     Last Name:
                     <input className='request__input' value={last} type='text' name="last" onChange={onChange} />
                 </label>
-            </div>
-            <div>
+           
                 <label HTMLfor='email' className='request__label'>
-                    Email:
+                    <i class="fas fa-at"></i>email
                     <input className='request__input' type='email' value={email} name="email" onChange={onChange} />
                 </label>
-            </div>
-            <div>
+      
                 <label HTMLfor='tel' className='request__label'>
-                    tel:
+                    <i class="fas fa-phone-square-alt"></i>
                     <input
                         className='request__input'
                         value={tel}
@@ -99,17 +96,18 @@ const Signup = () => {
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='###-###-####'
                     />
                 </label>
-            </div>
-            <div>
+         
                 <label HTMLfor='message' className='request__label'>
                     Message:
-                    <textarea cols='20' rows='10'maxlength='500' value={message} name="message" onChange={onChange} placeholder='Thank you for your time, please make sure to enter a contact # or email so I can respond back to you!'/>
+                    <textarea cols='47' rows='10'maxlength='500' value={message} name="message" onChange={onChange} placeholder='Thank you for your time, please make sure to enter a contact # or email so I can respond back to you!'/>
                 </label>
             </div>
+            <div className='move'>
             <button>Submit</button>{" "}
             <Link to='/' className='link'>
             GO BACK TO MAIN
             </Link>
+            </div>
         </form>
         </div>
         </>

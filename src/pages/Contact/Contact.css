@@ -19,7 +19,7 @@
     border-radius: 1px;
     background-color: #1e2024;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 2px;
     padding-bottom: 10px;
     padding-top: 20px;
     color: white;
@@ -38,12 +38,16 @@
     resize: vertical;
   }
   
-  input.request__input[type="text"],[type="email"], textarea {
-    padding: 5px 21px;
+  input.request__input[type="text"],[type="email"], [type='tel'], textarea {
+    padding: 5px 38px;
     border-radius: 1px;
     cursor: pointer;
     float: justify;
     resize: vertical;
+  }
+
+  .move {
+    text-align: center;
   }
   
   input[type="submit"]:hover {
