@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph, Pill } from '../../styles';
-import { ProfileLink } from './styles';
+import { ProfileLink, Memo } from './styles';
 
 const Me = ({ user }) => {
   return (
@@ -21,6 +21,7 @@ const Me = ({ user }) => {
       </div>
       <div>
         <SectionTitle>Profiles</SectionTitle>
+        <Memo>explore more with these links 🔻</Memo>
         <ul>
           {user.basics.profiles.map((profile, i) => (
             <ProfileLink key={profile.network}>
