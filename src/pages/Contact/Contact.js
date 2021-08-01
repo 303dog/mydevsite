@@ -72,12 +72,12 @@ const Signup = () => {
             <div className='request__row'>
                 <label HTMLfor='f_name' className='request__label'>
                     First Name:
-                    <input className='request__input' type='text' value={first} name="f_name" onChange={onChange} />
+                    <input className='request__input' type='text' value={first} name="first" onChange={onChange} />
                 </label>
            
                 <label HTMLfor='l_name' className='request__label'>
                     Last Name:
-                    <input className='request__input' value={last} type='text' name="l_name" onChange={onChange} />
+                    <input className='request__input' value={last} type='text' name="last" onChange={onChange} />
                 </label>
            
                 <label HTMLfor='email' className='request__label'>
